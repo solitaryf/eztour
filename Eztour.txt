@@ -1,0 +1,18 @@
+			Eztour
+
+Fitur :	- GPS tracking
+	- Login/Register dengan TinyDB
+	- Saran tempat penginapan
+	- Saran tempat makan
+	- Saran tempat rekreasi
+
+Activities :	- Screen 1
+		- Screen 2
+
+Functions :	Activity	Button	Action
+		Screen 1	Button2	Store TinyDB tag "username" && "password"
+		Screen 1	Button1	GetValue TinyDB tag "username" && "password"
+		Screen 2	Button1	Start MapsActivityStarter1 https://www.google.com/maps/search/tempat+makan+terdekat/
+		Screen 2	Button2 Start MapsActivityStarter1 https://www.google.com/maps/search/tempat+pariwisata+terdekat/
+		Screen 2	Button3 Start MapsActivityStarter1 https://www.google.com/maps/search/tempat+penginapan+terdekat/
+		Screen 2	Button4 Close screen
